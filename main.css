@@ -1,0 +1,245 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Universal Selector */ 
+
+* {
+	margin: 0;
+	padding: 0px;
+}
+
+/* Header */
+
+#right-top-links li {
+	display: inline-block;
+	float: right;
+	padding-right: 20px;
+	padding-top: 16px;
+	margin-top: 10px;
+}
+
+
+.btn {
+	-moz-box-shadow: 0px 2px 0px 0px #251399;
+	-webkit-box-shadow: 0px 2px 0px 0px #251399;
+	box-shadow: 0px 2px 0px 0px #251399;
+	background-color:#4365e0;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	padding:8px 16px;
+	text-decoration:none;
+}
+
+.btn:hover {
+	background-color:#3c66c9;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Google Icon */
+
+#google-icon img {
+	width: 	auto;
+	height: 115px;
+	padding-left: 105px;
+	margin-top: 195px;
+}
+
+#google-icon {
+	display: center;
+	margin-left: 335px;
+}
+
+/* Google Search Buttons */
+
+.btn-1 {
+	-moz-box-shadow: 0px 2px 0px 0px #919494;
+	-webkit-box-shadow: 0px 2px 0px 0px #919494;
+	box-shadow: 0px 2px 0px 0px #919494;
+	background-color:#c4ccca;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	padding:8px 16px;
+	text-decoration:none;
+}
+.btn-1:hover {
+	background-color:#94a1a1;
+}
+.btn-1:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-2 {
+	-moz-box-shadow: 0px 2px 0px 0px #919494;
+	-webkit-box-shadow: 0px 2px 0px 0px #919494;
+	box-shadow: 0px 2px 0px 0px #919494;
+	background-color:#c4ccca;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	padding:8px 16px;
+	text-decoration:none;
+}
+.btn-2:hover {
+	background-color:#94a1a1;
+}
+.btn-2:active {
+	position:relative;
+	top:1px;
+}
+
+#google-icon ul {
+	margin-top: 7px;
+	padding-left: 120px;
+}
+
+/* Grid Icon */
+
+#grid-icon {
+	width: 25px;
+	height: auto;
+}
+
+body li {
+	display: inline;
+}
+
+/* Text Field */
+
+input {
+	background: url(images/microphone.png) no-repeat scroll 465px -1px;
+	padding-left: 390px;
+	padding-bottom: 18px;
+}
+
+/* Footer */
+
+.footer {
+	background: #f2f2f2;
+	border: 1px solid black;
+	position: relative;
+	margin-top: 260px; /* negative value of footer height */
+	height: auto;
+	clear: both;
+}
+
+.footer #left-links {
+	float: left;
+	display: inline-block;
+	padding: 9px 2px 0 0;
+	margin-left: 2px;
+}
+
+.footer #right-bottom-links {
+	float: right;
+	display: inline-block;
+	padding: 9px 2px 0 0;
+	margin-left: 2px;
+}
+
+
+
+	border: 1px solid black;
+	position: relative;
+	margin-top: 260px; /* negative value of footer height */
+	height: auto;
+	clear: both;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
