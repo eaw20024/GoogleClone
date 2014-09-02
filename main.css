@@ -44,20 +44,24 @@ table {
 	border-spacing: 0;
 }
 
-/* Universal Selector */ 
+/************************************ 
+		Universal Selector 
+*************************************/ 
 
 * {
 	margin: 0;
 	padding: 0px;
 }
 
-/* Header */
+/************************************ 
+		Header
+*************************************/ 
 
 #right-top-links li {
 	display: inline-block;
 	float: right;
 	padding-right: 20px;
-	padding-top: 16px;
+	padding-top: 5px;
 	margin-top: 10px;
 }
 
@@ -89,7 +93,9 @@ table {
 }
 
 
-/* Google Icon */
+/************************************ 
+		Google Icon 
+*************************************/ 
 
 #google-icon img {
 	width: 	auto;
@@ -100,10 +106,12 @@ table {
 
 #google-icon {
 	display: center;
-	margin-left: 335px;
+	margin-left: 376px;
 }
 
-/* Google Search Buttons */
+/************************************ 
+		Google Buttons
+*************************************/ 
 
 .btn-1 {
 	-moz-box-shadow: 0px 2px 0px 0px #919494;
@@ -158,7 +166,9 @@ table {
 	padding-left: 120px;
 }
 
-/* Grid Icon */
+/************************************ 
+		Grid Icon
+*************************************/ 
 
 #grid-icon {
 	width: 25px;
@@ -169,53 +179,64 @@ body li {
 	display: inline;
 }
 
-/* Text Field */
+/************************************ 
+		Text Field 
+*************************************/ 
 
 input {
-	background: url(images/microphone.png) no-repeat scroll 465px -1px;
-	padding-left: 390px;
-	padding-bottom: 18px;
+	background: url(images/microphone.png) no-repeat scroll 486px 1px;
+	background-size: 26px;
+	width: 513px;
+	line-height: 2.5em;
+	border-style: 2px solid blue;
 }
 
-/* Footer */
+/************************************ 
+		Footer
+*************************************/ 
 
-.footer {
-	background: #f2f2f2;
-	border: 1px solid black;
-	position: relative;
-	margin-top: 260px; /* negative value of footer height */
-	height: auto;
-	clear: both;
+footer {
+	bottom: 0;
+	width: 100%;
+	min-width: 980px;
+	height: 35px;
+	position: absolute;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	font-size: 13px;
 }
 
-.footer #left-links {
-	float: left;
-	display: inline-block;
-	padding: 9px 2px 0 0;
-	margin-left: 2px;
-}
-
-.footer #right-bottom-links {
+footer #footer_right {
 	float: right;
-	display: inline-block;
-	padding: 9px 2px 0 0;
-	margin-left: 2px;
+	padding-top: 10px;
+	padding-left: 27px;
+	margin-right: 10px;
 }
 
+footer #footer_left {
+	float: left;
+	padding-top: 10px;
+	padding-left: 27px;
+	margin-right: 10px;
+}
 
+footer a {
+	display: block;
+	text-decoration: none;
+	color: #e4e4e4;
+}
 
-	border: 1px solid black;
-	position: relative;
-	margin-top: 260px; /* negative value of footer height */
-	height: auto;
-	clear: both;
+footer a:link {
+	color: #909090;
+}
 
+footer a:hover {
+	text-decoration: underline;
+}
 
-
-
-
-
-
+footer a:visited {
+	color:black;
+}
 
 
 
